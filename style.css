@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #004b87; 
-  color: #ffffff; 
+  color: #ffffff; }
 
 a {
   color: #f5b642; 
@@ -16,19 +16,20 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Header Styles */
+
 .headerGrid {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  background-color: #1d1d1d; /* Dark gray background */
-  border-bottom: 2px solid #f5b642; /* Golden yellow border */
+  background-color: #1d1d1d; 
+  border-bottom: 2px solid #f5b642; 
 }
 
 .logo {
   max-width: 100px;
   height: auto;
+  color: #1d1d1d;
 }
 
 .linksGrid {
@@ -49,7 +50,7 @@ a:hover {
   cursor: pointer;
 }
 
-/* Middle Content Styles */
+
 .middleGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -77,11 +78,11 @@ a:hover {
 }
 
 .readmore_Grid a {
-  color: #f5b642; /* Golden yellow */
+  color: #f5b642; 
   font-weight: bold;
 }
 
-/* Sidebar (Characters) Styles */
+
 .item4 {
   background-color: #1d1d1d;
   padding: 20px;
@@ -90,13 +91,13 @@ a:hover {
 }
 
 .heading_new {
-  color: #f5b642; /* Golden yellow */
+  color: #f5b642; 
   font-size: 24px;
   margin-bottom: 15px;
 }
 
 .item4 a {
-  color: #ffffff; /* White links */
+  color: #ffffff;
   display: block;
   margin-bottom: 10px;
 }
@@ -108,12 +109,12 @@ a:hover {
 }
 
 .rule1, .rule2 {
-  border-top: 1px solid #f5b642; /* Golden yellow */
+  border-top: 1px solid #f5b642; 
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-/* Footer Styles */
+
 .footerGrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -132,20 +133,20 @@ a:hover {
 
 .item__content {
   padding-left: 20px;
-  color: #ffffff; /* White text */
+  color: #ffffff; 
 }
 
 .item_h1 {
   display: block;
   font-size: 24px;
   font-weight: bold;
-  color: #f5b642; /* Golden yellow */
+  color: #f5b642; 
   margin-bottom: 10px;
 }
 
 .item_h3 a {
   font-size: 18px;
-  color: #ffffff; /* White links */
+  color: #ffffff; 
 }
 
 .item_p {
@@ -153,17 +154,17 @@ a:hover {
   line-height: 1.6;
 }
 .logo {
-  width: 100px; /* Adjust size as necessary */
+  width: 100px; 
   height: auto;
-  margin-left: 20px; /* Add margin to position it away from the edge */
+  margin-left: 20px; 
 }
-/* Flexbox layout for game items */
+
 #games {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
-  justify-content: space-around; /* Adjust as needed */
+  justify-content: space-around; 
 }
 
 .game-item {
@@ -172,8 +173,8 @@ a:hover {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  width: calc(33.33% - 20px); /* Adjust width to fit three items per row */
-  min-width: 300px; /* Minimum width for each game item */
+  width: calc(33.33% - 20px); 
+  min-width: 300px; 
 }
 
 .game-item h2 {
