@@ -2,7 +2,7 @@ const gameCtn = document.getElementById("games");
 
 export async function loadGames(){
     try{
-    const resp = await fetch('https://zelda.fanapis.com/api/games?limit=10')
+            const resp = await fetch('https://zelda.fanapis.com/api/games?limit=10')
             if (!resp.ok) {
                 throw new Error('Network response was not ok');
             }
@@ -11,7 +11,13 @@ export async function loadGames(){
            
     const games = data.data;
 
-    display(games);
+    // display(games);
+    console.log(games)
+    for(let i = 0; i < games.length; i++) {
+        const title = document.createElement('h2')
+        title.innerHTML = `${games.name}`
+        gameCtn.append(title)
+    }
             
 }catch(error){
     console.error('Error fetching data:', error);
